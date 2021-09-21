@@ -1,5 +1,6 @@
 public class Main2 {
-    public static void main(String[] args){
+    
+    public static void main(String[] args) {
         System.out.print("\033[H\033[2J");  
         System.out.flush();
         Employe[] employe = new Employe [2];
@@ -12,4 +13,5 @@ public class Main2 {
             System.out.println(i.payment());
         }
     }
+    
 }
